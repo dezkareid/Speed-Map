@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Map Flash</title>
+  </head>
+  <body>
+    <nav class="navbar fullwidth navbar-black" data-tools="navigation-fixed">
+        <ul>
+          <li ><a href="#">Home</a></li>
+
+        </ul>
+      </nav>
+      <h1>The Power of the Speed Force</h1>
+    <div class="units-row end">
+      <div class="unit-70">
+        <div id="map"></div>
+      </div>
+      <div class="unit-push-right unit-30">
+        <button id="run" class="btn btn-black" disabled>Run Barry Run</button>
+        <button id="reset" class="btn btn-black" disabled>Reset</button>
+      </div>
+    </div>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=geometry" async defer>
+    </script>
+  </body>
+</html>
